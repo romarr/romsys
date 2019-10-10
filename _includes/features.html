@@ -1,0 +1,11 @@
+{%- for feature in site.data.features -%}
+<div class="col">
+  <div class="card border-primary mb-3">
+    <img src="{{feature.img}}" class="card-img-top" alt="{{feature.title}}">
+    <div class="card-body">
+      <h4 class="card-title">{{feature.title}}</h4>
+      <p class="card-text">{{feature.text}}</p>
+    </div>
+  </div>
+</div>
+{%- endfor -%}

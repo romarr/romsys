@@ -1,0 +1,22 @@
+---
+---
+
+@import 'variables';
+@import 'bootstrap/bootstrap';
+@import 'bootswatch';
+@import 'fontawesome/fontawesome';
+@import 'fontawesome/solid';
+@import 'fontawesome/brands';
+@import 'fontawesome/regular';
+
+body {
+    background-color: $gray-200;
+}
+
+.bg-gray {
+    background-color: $gray-200 !important;
+}
+
+.navbar {
+    font-size: 1.5rem;
+}

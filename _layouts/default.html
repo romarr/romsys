@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body>
+  <header id="header-container" class="container py-4">
+      {% include nav.html %}
+  </header>
+  <main id="main-container" class="container">
+    <div class="row">
+      <div class="col-12">
+        {{content}}
+      </div>
+    </div>
+  </main>
+  <script src="{{"/js/jquery.min.js" | prepend: site.baseurl}}"></script>
+  <script src="{{"/js/bootstrap.min.js" | prepend: site.baseurl}}"></script>
+</body>
+
+</html>

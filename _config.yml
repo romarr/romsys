@@ -1,0 +1,34 @@
+# Site settings
+title: Dépannage Informatique
+email: contact@romsys.ovh
+slogan1: Dépannage à domicile - Agglomération Terre de provence.
+permalink: /:categories/:title.html
+description: > # this means to ignore newlines until "baseurl:"
+  Dépannage PC à domicile.
+  Tous types de pannes, optimisation, installation et formation.
+  Tarifs souples, accessible et instructif.
+baseurl: "/romsys" # the subpath of your site, e.g. /blog
+url: "https://romarr.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+
+# Gems et extensions
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-paginate
+exclude:
+- Dockerfile
+
+collections_dir: collections
+
+collections:
+  actus:
+    output: true
+    permalink: /actualites/:title
+  
+sass:
+  sass_dir: css
+  style: compressed
