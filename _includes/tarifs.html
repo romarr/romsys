@@ -1,0 +1,16 @@
+<table class="table table-striped">
+  <thead class="thead-dark">
+    <tr>
+      <th>Prestation</th>
+      <th>Tarif</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- for tarif in site.data.tarifs -%}
+    <tr>
+      <td>{{tarif.title}}</td>
+      <td>{{tarif.price}} €</td>
+    </tr>
+    {%- endfor -%}
+  </tbody>
+</table>

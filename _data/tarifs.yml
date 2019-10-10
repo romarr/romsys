@@ -1,0 +1,18 @@
+- title: Tarif horaire
+  price: 32
+- title: Forfait optimisation rapide
+  price: 25
+- title: Forfait contrôle des données
+  price: 25
+- title: Forfait nettoyage et optimisation
+  price: 45
+- title: Forfait réinstallation et restauration*
+  price: 55
+- title: Récuparation de données niveau 1
+  price: 25
+- title: Récuparation de données niveau 2
+  price: 45
+- title: Tarif réduit découverte**
+  price: 28
+- title: Intervention à distance***
+  price: 15
